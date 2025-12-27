@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@layer base {
+  /* You can also define global variables in a base layer */
+  :root {
+    --primary: #2563eb;
+  }
+}
+
+body {
+  background-color: #f1f5f9;
+}
